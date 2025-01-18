@@ -4,6 +4,7 @@ function App() {
   return (
     <>
       <Header />
+      <main className="bg-Background"></main>
     </>
   );
 }

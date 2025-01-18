@@ -6,7 +6,7 @@ const NavLinks = ["Home", "Service", "Features", "Payment"];
 export const Header = () => {
   return (
     <>
-      <header className="sticky bg-slate-500 py-3 px-2">
+      <header className="fixed w-full py-3 px-2">
         <div className="container flex justify-between items-center">
           <img src="./Logo/logo.png" alt="Website Logo" />
           <nav>
@@ -18,7 +18,7 @@ export const Header = () => {
               ))}
             </ul>
           </nav>
-          {/* <Button className="rounded-full font-bold">Download The App</Button> */}
+          <Button className="rounded-full font-bold">Download The App</Button>
         </div>
       </header>
     </>
