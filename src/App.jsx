@@ -5,7 +5,9 @@ function App() {
   return (
     <>
       <Header />
-      <main className="bg-Background">{/* <Hero /> */}</main>
+      <main className="bg-Background">
+        <Hero />
+      </main>
     </>
   );
 }

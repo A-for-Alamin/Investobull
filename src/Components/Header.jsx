@@ -18,10 +18,10 @@ export const Header = () => {
 
   return (
     <>
-      <header className="sticky top-0 py-1 md:py-3 px-2 bg-Background">
+      <header className="sticky top-0 py-1 md:py-3 px-2 bg-Background z-40">
         <div className="container flex justify-between items-center">
           <img
-            className="scale-75 md:scale-100"
+            className="scale-75 md:scale-90 lg:scale-100"
             src="./Logo/logo.png"
             alt="Website Logo"
           />
@@ -32,7 +32,7 @@ export const Header = () => {
               !openNav && "hidden"
             }`}
           >
-            <ul className="flex flex-col md:flex-row items-center gap-3 md:gap-14 py-5 md:py-0 px-4 text-center text-white bg-slate-500 md:bg-transparent">
+            <ul className="flex flex-col md:flex-row items-center gap-3 md:gap-8 lg:gap-14 py-5 md:py-0 px-4 text-center text-white bg-slate-500 md:bg-transparent">
               {NavLinks.map((navlink, i) => (
                 <li
                   key={i}
@@ -49,7 +49,7 @@ export const Header = () => {
             </ul>
           </nav>
 
-          <Button className="hidden md:block rounded-full font-bold">
+          <Button className="hidden md:block md:px-5 md:py-3 md:text-sm rounded-full font-bold lg:px-10 lg:py-4 lg:text-base">
             Download The App
           </Button>
 
