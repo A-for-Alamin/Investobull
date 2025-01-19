@@ -1,4 +1,8 @@
+import { IoMdRadio } from "react-icons/io";
+import Card from "../UI/Card";
 import SectionName from "../UI/SectionName";
+
+const serviceCards = ["Guarantee Safety", "All in One App", "Easy to Use"];
 
 export const Services = () => {
   return (
@@ -19,8 +23,11 @@ export const Services = () => {
           <SectionName>
             Our Best Services <br /> For Your Convinience
           </SectionName>
-
-          <div></div>
+        </div>
+        <div className="flex justify-center gap-[120px]">
+          {serviceCards.map((serviceCard, i) => (
+            <Card key={i} children={serviceCard} />
+          ))}
         </div>
       </div>
     </section>
