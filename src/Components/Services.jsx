@@ -4,7 +4,7 @@ import SectionName from "../UI/SectionName";
 
 const serviceCards = ["Guarantee Safety", "All in One App", "Easy to Use"];
 
-export const Services = () => {
+function Services() {
   return (
     <section>
       <div className="relative z-10 overflow-hidden py-8 md:py-20">
@@ -32,4 +32,6 @@ export const Services = () => {
       </div>
     </section>
   );
-};
+}
+
+export default Services;
