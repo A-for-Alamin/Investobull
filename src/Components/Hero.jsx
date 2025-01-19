@@ -4,7 +4,7 @@ import { MdOutlinePlayCircleFilled } from "react-icons/md";
 
 function Hero() {
   return (
-    <section className="pb-16 px-2">
+    <section className="md:pb-16 px-2">
       <div className="bg-[url(./img/hero-bg.png)] bg-cover bg-bottom flex flex-col items-center py-9 md:py-[7rem]">
         <div className="text-white text-center">
           <h1 className="text-4xl md:text-5px lg:text-6xl md:leading-[74px] font-semibold md:font-bold">
@@ -12,8 +12,9 @@ function Hero() {
           </h1>
           <p className="sm:text-lg sm:leading-[30px] mt-6 px-4 md:px-0 text-justify sm:text-center">
             Investment is a term with several meanings related to finance and
-            economics. The term relates <br /> to the accumulation of an assets
-            in the forms of an expectation of the future profits.
+            economics. The term relates <br className="hidden md:block" /> to
+            the accumulation of an assets in the forms of an expectation of the
+            future profits.
           </p>
         </div>
         <div className="flex flex-col md:flex-row gap-3 md:gap-10 text-xl font-medium py-2 mt-10">
