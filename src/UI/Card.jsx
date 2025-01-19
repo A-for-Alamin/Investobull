@@ -6,8 +6,10 @@ export default function Card({ children }) {
       <div>
         <IoMdRadio className="p-2 pt-5 bg-primary text-6xl rounded-full" />
       </div>
-      <h3 className="font-medium text-3xl mb-4 mt-6">{children}</h3>
-      <p>
+      <h3 className="font-medium text-3xl mb-2 md:mb-4 mt-4 md:mt-6">
+        {children}
+      </h3>
+      <p className="leading-7">
         Lorem ipsum dolor sit amet, etetcera ut consectetur adipiscing elit, sed
         do terru eiusmod tempor incididunt ut labore et dolore magna.
       </p>
