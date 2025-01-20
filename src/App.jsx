@@ -1,3 +1,4 @@
+import About from "./Components/About";
 import Features from "./Components/Features";
 import Frequently from "./Components/Frequently";
 import { Header } from "./Components/Header";
@@ -15,6 +16,7 @@ function App() {
         <Investobull />
         <Features />
         <Frequently />
+        <About />
       </main>
     </>
   );
