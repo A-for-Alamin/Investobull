@@ -1,4 +1,5 @@
 import About from "./Components/About";
+import Choose from "./Components/Choose";
 import Features from "./Components/Features";
 import Footer from "./Components/Footer";
 import Frequently from "./Components/Frequently";
@@ -18,6 +19,7 @@ function App() {
         <Services />
         <Investobull />
         <Features />
+        <Choose />
         <Frequently />
         <About />
         <Trial />

@@ -18,15 +18,9 @@ function Frequently() {
         </SectionName>
 
         <div className="md:py-10 py-5 px-2">
-          {Array.from(Array(4).keys()).map((i) => (
-            <Accordion
-              flush={true}
-              type="single"
-              key={i}
-              defaultValue={1}
-              collapsible
-            >
-              <AccordionItem value={i + 1}>
+          <Accordion flush={true} type="single" defaultValue={1} collapsible>
+            {Array.from(Array(4).keys()).map((i) => (
+              <AccordionItem value={i + 1} key={i}>
                 <AccordionAction>
                   <AccordionTitle className="font-semibold md:font-bold text-start text-white text-lg md:text-[28px]">
                     Lorem ipsum dolor sit amet consterqeur?
@@ -44,8 +38,8 @@ function Frequently() {
                   web hosting service for your website
                 </AccordionContent>
               </AccordionItem>
-            </Accordion>
-          ))}
+            ))}
+          </Accordion>
         </div>
       </div>
     </section>
