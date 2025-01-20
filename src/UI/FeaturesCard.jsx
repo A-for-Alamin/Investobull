@@ -4,11 +4,11 @@ export default function FeaturesCard({ imgsrc, imgsrc2, children, className }) {
   return (
     <div
       className={twMerge(
-        "text-white flex flex-col md:flex-row justify-between rounded-[30px] p-3 pb-0 md:p-0 overflow-hidden shadow-sm",
+        "text-white flex flex-col md:flex-row justify-between items-center rounded-[30px] p-3 pb-0 md:p-0 overflow-hidden shadow-sm",
         className
       )}
     >
-      <div className="md:p-24 lg:w-1/2 space-y-4">
+      <div className="md:p-24 md:pt-0 lg:w-1/2 space-y-4">
         <img src={`./icons/${imgsrc}`} />
         <h3 className="font-semibold text-2xl md:text-[40px] md:leading-10">
           {children}

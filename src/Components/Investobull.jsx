@@ -10,7 +10,7 @@ function Investobull() {
           These are why you should use <br /> Investobull
         </SectionName>
       </div>
-      <div className="flex flex-col md:flex-row px-4 md:mb-10">
+      <div className="flex flex-col md:flex-row px-4 md:p-0 md:mb-10">
         <div className="md:w-1/2">
           <InvestobullCard
             className="border-b border-[#E6E6E6]"
