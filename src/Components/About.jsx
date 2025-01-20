@@ -2,7 +2,7 @@ import { Button } from "../UI/Button";
 
 function About() {
   return (
-    <section className="bg-[url(./bg-filter/about-bg.png)] bg-no-repeat bg-cover py-12 mt-16">
+    <section className="bg-[url(./bg-filter/about-bg.png)] bg-no-repeat bg-cover py-12 my-16">
       <div className="container bg-[url(./bg-filter/about-bg-filter.png)] flex flex-col md:flex-row justify-between items-center px-5 gap-y-8">
         <img src="./img/about-img.png" alt="about-img" />
 
