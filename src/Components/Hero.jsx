@@ -6,7 +6,7 @@ function Hero() {
   return (
     <section className="md:pb-16 px-2">
       <div className="bg-[url(./bg-filter/hero-bg.png)] bg-cover bg-bottom flex flex-col items-center py-9 md:py-[7rem]">
-        <div className="text-white text-center">
+        <div className="text-center">
           <h1 className="text-4xl md:text-5px lg:text-6xl md:leading-[74px] font-semibold md:font-bold">
             We make it easy for <br /> everyone to invest
           </h1>

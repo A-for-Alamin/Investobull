@@ -6,7 +6,7 @@ function About() {
       <div className="container bg-[url(./bg-filter/about-bg-filter.png)] flex flex-col md:flex-row justify-between items-center px-5 gap-y-8">
         <img src="./img/about-img.png" alt="about-img" />
 
-        <div className="md:w-1/2 text-white space-y-4 md:space-y-[22px]">
+        <div className="md:w-1/2 space-y-4 md:space-y-[22px]">
           <img src="./icons/qout.png" />
           <p className="text-xl md:text-[42px] md::leading-[50px] lg:leading-[57px]">
             Deski combines excellent live chat, ticketing and automation that
