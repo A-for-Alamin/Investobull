@@ -11,7 +11,7 @@ export default function SectionName({ children }) {
       </p>
       <img
         className="scale-75 md:scale-100"
-        src="./img/name-underline.png"
+        src="./bg-filter/name-underline.png"
         alt="Name-Underline"
       />
     </div>

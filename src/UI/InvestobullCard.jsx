@@ -19,7 +19,7 @@ export default function InvestobullCard({
         <h3 className="font-bold text-2xl lg:text-[30px] md:mt-8 mb-2">
           {label}
         </h3>
-        <img src="./img/path.png" />
+        <img src="./bg-filter/path.png" />
         <p className="font-light text-[26px] lg:text-[35px] md:leading-[52px] mt-3">
           {describe}
         </p>

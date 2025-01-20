@@ -5,7 +5,7 @@ import { MdOutlinePlayCircleFilled } from "react-icons/md";
 function Hero() {
   return (
     <section className="md:pb-16 px-2">
-      <div className="bg-[url(./img/hero-bg.png)] bg-cover bg-bottom flex flex-col items-center py-9 md:py-[7rem]">
+      <div className="bg-[url(./bg-filter/hero-bg.png)] bg-cover bg-bottom flex flex-col items-center py-9 md:py-[7rem]">
         <div className="text-white text-center">
           <h1 className="text-4xl md:text-5px lg:text-6xl md:leading-[74px] font-semibold md:font-bold">
             We make it easy for <br /> everyone to invest
@@ -26,7 +26,7 @@ function Hero() {
       </div>
 
       {/* Images of Hero Section  */}
-      <div className="bg-[url(./img/hero-image-bg.png)] bg-no-repeat bg-cover -mt-10 md:-mt-14 px-3 md:px-0">
+      <div className="bg-[url(./bg-filter/hero-image-bg.png)] bg-no-repeat bg-cover -mt-10 md:-mt-14 px-3 md:px-0">
         <div className="container flex flex-col md:flex-row justify-center gap-3 md:gap-[25px] scale-90 sm:scale-100">
           <div className="flex flex-col md:flex-row items-center gap-3 md:gap-[25px]">
             <img src="./img/hero-img-1.png" />

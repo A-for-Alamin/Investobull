@@ -1,7 +1,7 @@
 import { FiX } from "react-icons/fi";
 import { Button } from "../UI/Button";
 import React, { useState } from "react";
-import { HiMiniBars3BottomLeft } from "react-icons/hi2";
+import { HiMiniBars3CenterLeft } from "react-icons/hi2";
 
 // Nav Links Array
 const NavLinks = ["Home", "Service", "Features", "Payment"];
@@ -55,7 +55,7 @@ export const Header = () => {
 
           {/* Nav Icons  */}
           <div className="text-white text-2xl md:hidden" onClick={handleNavBar}>
-            {openNav ? <FiX /> : <HiMiniBars3BottomLeft />}
+            {openNav ? <FiX /> : <HiMiniBars3CenterLeft />}
           </div>
         </div>
       </header>

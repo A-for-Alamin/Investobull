@@ -1,4 +1,3 @@
-import { IoMdRadio } from "react-icons/io";
 import Card from "../UI/Card";
 import SectionName from "../UI/SectionName";
 
@@ -10,12 +9,12 @@ function Services() {
       <div className="relative z-10 overflow-hidden py-8 md:py-20">
         <img
           className="absolute top-0 -z-10 scale-50 md:scale-100 -translate-x-10 md:translate-x-0"
-          src="./img/service-filter-left.png"
+          src="./bg-filter/service-filter-left.png"
           alt="Background Filter"
         />
         <img
           className="absolute right-0 -z-10 scale-50 md:scale-100 translate-x-20 md:translate-x-0"
-          src="./img/service-filter-right.png"
+          src="./bg-filter/service-filter-right.png"
           alt="Background Filter"
         />
 
