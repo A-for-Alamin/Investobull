@@ -32,7 +32,7 @@ export const Header = () => {
               !openNav && "hidden"
             }`}
           >
-            <ul className="flex flex-col md:flex-row items-center gap-3 md:gap-8 lg:gap-14 py-5 md:py-0 px-4 text-center text-white bg-slate-500 md:bg-transparent">
+            <ul className="flex flex-col md:flex-row items-center gap-3 md:gap-8 lg:gap-14 py-5 md:py-0 px-4 text-center text-white bg-green-500 md:bg-transparent">
               {NavLinks.map((navlink, i) => (
                 <li
                   key={i}
