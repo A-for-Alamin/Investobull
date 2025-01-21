@@ -6,7 +6,7 @@ const serviceCards = ["Guarantee Safety", "All in One App", "Easy to Use"];
 function Services() {
   return (
     <section>
-      <div className="relative z-10 overflow-hidden py-8 md:py-20">
+      <div className="relative z-10 overflow-hidden py-8 md:py-20 font-DMSans">
         <img
           className="absolute top-0 -z-10 scale-50 md:scale-100 -translate-x-10 md:translate-x-0"
           src="./bg-filter/service-filter-left.png"

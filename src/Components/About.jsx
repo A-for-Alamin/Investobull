@@ -14,7 +14,7 @@ function About() {
           </p>
 
           <div className="md:text-xl pb-4 md:pb-8">
-            <p>Mike Lucas.</p>
+            <p className="font-Roboto">Mike Lucas.</p>
             <strong>CEO & Founder</strong>
           </div>
 

@@ -1,6 +1,6 @@
 export default function SectionName({ children }) {
   return (
-    <div className="text-white flex flex-col justify-center items-center text-center">
+    <div className="text-white flex flex-col justify-center items-center text-center font-DMSans">
       <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold md:font-bold md:leading-[64px]">
         {children}
       </h2>

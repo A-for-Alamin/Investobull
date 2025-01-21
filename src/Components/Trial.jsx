@@ -6,7 +6,7 @@ function Trial() {
     <section className="md:py-24 px-2">
       <div className="container rounded-3xl bg-[#086436] bg-[url(./bg-filter/trial-bg-filter.png)] bg-cove flex flex-col md:flex-row justify-between p-4 md:p-[84px] gap-y-5">
         <div>
-          <p className="text-xl">Stert your free trial.</p>
+          <p className="text-xl font-Rubik">Stert your free trial.</p>
           <h2 className="font-semibold md:font-bold text-3xl md:text-4xl lg:text-5xl md:leading-[58px]">
             New user? Start your <br className="hidden md:block" /> free trial
             now.
@@ -24,7 +24,7 @@ function Trial() {
             </Button>
           </div>
 
-          <p className="text-sm md:text-base">
+          <p className="text-sm md:text-base font-Roboto">
             Already a member?
             <span className="text-primary cursor-pointer"> Sign in.</span>
           </p>

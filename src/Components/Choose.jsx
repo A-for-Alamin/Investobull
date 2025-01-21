@@ -13,8 +13,10 @@ function Choose() {
       <div className="container flex flex-col md:flex-row items-center">
         <div className="md:w-1/2">
           <div>
-            <p className="sm:text-xl text-[#FFE5E5]">GET STARTED IN MINUTES</p>
-            <h2 className="text-3xl md:text-[42px] font-semibold ">
+            <p className="sm:text-xl text-[#FFE5E5] font-Roboto">
+              GET STARTED IN MINUTES
+            </p>
+            <h2 className="text-3xl md:text-[42px] font-semibold md:leading-[64px]">
               3 Main Reaosn to <br className="hidden md:block" /> Choose us.
             </h2>
             <img src="./bg-filter/name-underline.png" />
@@ -22,7 +24,7 @@ function Choose() {
           <Accordion flush={true} type="single" defaultValue={1} collapsible>
             <AccordionItem value={1}>
               <AccordionAction>
-                <AccordionTitle className="font-semibold md:font-bold text-start text-white text-lg md:text-[32px]">
+                <AccordionTitle className="font-semibold lg:font-bold text-start text-white text-lg md:text-[32px] font-Rubik md:leading-[45px]">
                   Register and create your first support portal
                 </AccordionTitle>
                 <AccordionIcon />
@@ -40,7 +42,7 @@ function Choose() {
             </AccordionItem>
             <AccordionItem value={2}>
               <AccordionAction>
-                <AccordionTitle className="font-semibold md:font-bold text-start text-white text-lg md:text-[32px]">
+                <AccordionTitle className="font-semibold lg:font-bold text-start text-white text-lg md:text-[32px] font-Rubik md:leading-[45px]">
                   Manage your dashbaord easily
                 </AccordionTitle>
                 <AccordionIcon />
@@ -49,7 +51,7 @@ function Choose() {
             </AccordionItem>
             <AccordionItem value={3}>
               <AccordionAction>
-                <AccordionTitle className="font-semibold md:font-bold text-start text-white text-lg md:text-[32px]">
+                <AccordionTitle className="font-semibold lg:font-bold text-start text-white text-lg md:text-[32px] font-Rubik md:leading-[45px]">
                   Start Investing
                 </AccordionTitle>
                 <AccordionIcon />

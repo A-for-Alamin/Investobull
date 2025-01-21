@@ -8,7 +8,7 @@ function Footer() {
   return (
     <section>
       <div className="container px-4">
-        <div className="grid grid-cols-2 lg:grid-cols-5 gap-10 pb-5 md:py-16 md:px-20 text-center md:text-start">
+        <div className="grid grid-cols-2 lg:grid-cols-5 gap-10 pb-5 md:py-16 md:px-20 text-center md:text-start font-DMSans">
           <div className="col-span-2 md:col-span-1">
             <img src="./Logo/logo.png" alt="logo" />
             <p className="mt-4">
@@ -42,7 +42,7 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div className="flex flex-col sm:flex-row gap-2 justify-between items-center border-t border-white/15 p-5 text-white/50">
+        <div className="flex flex-col sm:flex-row gap-2 justify-between items-center border-t border-white/15 p-5 text-white/50 font-Roboto">
           <p>Copyright @2023 Asra</p>
           <ul className="flex gap-5">
             <li>Privacy</li>

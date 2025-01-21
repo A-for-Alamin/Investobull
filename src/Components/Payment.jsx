@@ -17,7 +17,7 @@ function Payment() {
             <h3 className="font-medium text-3xl md:text-4xl lg:text-5xl md:leading-[55px]">
               The New Way of <br className="hidden md:block" /> Cashless Payment
             </h3>
-            <p className="text-sm md:text-base">
+            <p className="text-sm md:text-base font-DMSans">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit,{" "}
               <br className="hidden md:block" /> sed do eiusmod tempor
               incididunt ut labore et dolore magna.

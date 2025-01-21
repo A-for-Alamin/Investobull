@@ -1,6 +1,6 @@
 import { FiX } from "react-icons/fi";
 import { Button } from "../UI/Button";
-import React, { useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import { HiMiniBars3CenterLeft } from "react-icons/hi2";
 
 // Nav Links Array
@@ -11,15 +11,32 @@ export const Header = () => {
   //State Navbar Open / Close When on mobile screen.
   const [openNav, setOpenNav] = useState(false);
 
+  // Navbae Border Control
+  const [navborder, setNavborder] = useState(false);
+
   // Click Function for Navbar Open and Close.
   const handleNavBar = () => {
     setOpenNav(!openNav);
   };
 
+  const handleScroll = useCallback(() => {
+    setNavborder(window.scrollY >= 150);
+  }, []);
+
+  // Effect to Add/Remove Scroll Event Listener
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [handleScroll]);
+
   return (
     <>
-      <header className="sticky top-0 py-1 md:py-3 px-2 bg-Background z-40">
-        <div className="container flex justify-between items-center">
+      <header
+        className={`sticky top-0 py-1 md:py-3 px-2 bg-Background z-40 ${
+          navborder && "border-b border-[#33393F]"
+        }`}
+      >
+        <div className="container flex justify-between items-center font-DMSans">
           <img
             className="scale-75 md:scale-90 lg:scale-100"
             src="./Logo/logo.png"

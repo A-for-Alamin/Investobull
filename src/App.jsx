@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="bg-Background text-white">
+      <main className="bg-Background text-white font-Poppins">
         <Hero />
         <Services />
         <Investobull />
